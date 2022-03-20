@@ -1,4 +1,4 @@
-# bootstrap algorithm in Solidity
+# Simple bootstrap algorithm
 </br>
 
 ## Problem
