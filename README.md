@@ -1,4 +1,4 @@
-# Simple bootstrap algorithm
+# Simple bootstrap algorithm as a smart contract
 </br>
 
 ## Problem
