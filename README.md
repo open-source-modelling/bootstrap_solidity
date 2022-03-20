@@ -5,7 +5,11 @@
 When looking at for example time-series data, the user might want to test their algorithm with a different combination of elements. For example a counter-factural.
 
 ## Solution
-One of the simplest algorithms avalible is bootstrapping.  LINK The idea is simply to randomly choose elements from the time-series and stack them in a new output series. This requires almost no additional assumptions on the behaviour and distribution of the data. The one key assumption is that each element is independent from others. If this is not the case, other methods might be more suitable. For example, if you observe a week dependance inside the time-series, look at the stationary bootstrap algorithm implemented in Python or Matlab.
+One of the simplest algorithms avalible is bootstrapping.  LINK The idea is simply to randomly choose elements from the time-series and stack them in a new output series. This requires almost no additional assumptions on the behaviour and distribution of the data. The one key assumption is that each element is independent from others. If this is not the case, other methods might be more suitable. For example, if you observe a week dependance inside the time-series, look at the stationary bootstrap algorithm implemented in [Python] or in [Matlab].
+
+ [Python]:github.com/qnity/insurance_python/tree/main/stationary-bootstrap
+ [Matlab]:github.com/qnity/insurance_matlab/tree/main/stationary-bootstrap
+
 
 ## Input
 Once the user deploys the smart contract on a virtual machine and deploys the Bootstrap contract, everybody can use the "shuffle" function to calculate a new bootstrapped sample. The inputs are:
