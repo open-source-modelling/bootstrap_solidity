@@ -10,7 +10,6 @@ One of the simplest algorithms avalible is bootstrapping.  LINK The idea is simp
  [Python]:github.com/qnity/insurance_python/tree/main/stationary-bootstrap
  [Matlab]:github.com/qnity/insurance_matlab/tree/main/stationary-bootstrap
 
-
 ## Input
 Once the user deploys the smart contract on a virtual machine and deploys the Bootstrap contract, everybody can use the "shuffle" function to calculate a new bootstrapped sample. The inputs are:
 
