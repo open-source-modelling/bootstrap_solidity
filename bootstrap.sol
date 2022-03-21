@@ -14,7 +14,7 @@ contract Bootstrap {
         return randomNumber;
     }
     
-    function shuffle(uint[] memory dataSeries,uint256 seed) public view returns(uint[] memory) {
+       function shuffle(int[] memory dataSeries,uint256 seed) public view returns(int[] memory) {
         // Calling this function with an array as an input and a randomly choosen seed, generates as output
         // an array of same length with randomly sampled elements.
         // Arguments:
@@ -26,7 +26,7 @@ contract Bootstrap {
 
         uint256 dataLength = uint256(dataSeries.length);
         uint bootstrapIndex = generateRandomIndex(seed, dataLength);
-        uint[] memory sample = new uint[](dataLength);
+        int[] memory sample = new int[](dataLength);
 
         for(uint j=0; j < dataLength; j++){
             sample[j] = dataSeries[bootstrapIndex];
