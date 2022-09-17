@@ -8,7 +8,7 @@
 </br>
 
 ## Problem
-When looking at, for example, time-series data, the user might want to test their algorithms with a different combination of elements.
+When working with time-series data, the user might want to test their algorithms on counterfactuals (different combination and sequence of data points).
 
 ## Solution
 One of the simplest techniques avalible is bootstrapping (en.wikipedia.org/wiki/Bootstrapping_(statistics)) The idea is simply to randomly choose elements from the time-series and stack them in a new output. This requires almost no additional assumptions on the behaviour or distribution of the data. The one key assumption is that each element is independent from others. If this is not the case, other methods might be more suitable. For example, if you observe a week dependance inside the time-series, look at the stationary bootstrap algorithm implemented in [Python] or in [Matlab].
