@@ -1,4 +1,10 @@
-# Smart contract with a simple bootstrap algorithm 
+
+<h1 align="center" style="border-botom: none">
+  <b>
+   🔥 Smart contract with a simple bootstrap algorithm  🔥 
+  </b>
+</h1>
+
 </br>
 
 ## Problem
